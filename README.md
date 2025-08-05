@@ -1,6 +1,6 @@
 # Ejercio 4 - Funciones | Marcador de Turnos
 
-Es este proyecto se implementa una pequeña aplicación de marcador de turnos utilizando **TypeScript**, HTML y CSS.
+En este proyecto se implementa una pequeña aplicación de marcador de turnos utilizando **TypeScript**, HTML y CSS.
 
 ##  Objetivo del ejercicio
 
@@ -15,17 +15,19 @@ Simular una pantalla de turnos para una clínica, donde un operario pueda:
 
 ##  Tecnologías utilizadas
 
-- 🧩 [Vite](https://vitejs.dev/) como entorno de desarrollo
-- 💬 TypeScript en modo estricto
-- 🎨 HTML y CSS personalizados
-- 🧪 DOM + eventos
+-  [Vite](https://vitejs.dev/) como entorno de desarrollo
+-  TypeScript en modo estricto
+-  HTML y CSS personalizados
+-  DOM + eventos
 
 ---
 
-## 📁 Estructura del proyecto
-├── index.html # Estructura HTML principal
-├── src/
-│ ├── main.ts # Lógica de control de turnos
-│ └── style.css # Estilos visuales
-├── tsconfig.json # Configuración estricta de TypeScript
-└── README.md # Este archivo
+##  Estructura del proyecto
+- index.html # Estructura HTML principal.
+- src/
+  - main.ts        # Lógica principal
+  - style.css      # Estilos
+  - assets/        # Recursos estáticos
+
+- tsconfig.json # Configuración estricta de TypeScript
+- README.md # Este archivo
