@@ -2,14 +2,27 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="./src/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + TS</title>
+    <title>Marcador de Turnos</title>
   </head>
   <body>
-    <div id="app">
-      <h1>TypeScript Sandbox</h1>
+    <div class="turno-display">
+      <h1 class="numero-turno" id="turno">00</h1>
+      <p class="texto-turno">Por favor, acérquese al mostrador</p>
+
+      <div>
+        <button id="anterior">Anterior</button>
+        <button id="siguiente">Siguiente</button>
+        <button id="reset">Reset</button>
+      </div>
+
+      <div>
+        <input type="number" id="input-turno" placeholder="Cambiar a turno..." />
+        <button id="cambiar">Cambiar</button>
+      </div>
     </div>
+
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>

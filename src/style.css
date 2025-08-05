@@ -27,6 +27,7 @@ body {
   margin: 0;
   display: flex;
   place-items: center;
+  justify-content: space-around;
   min-width: 320px;
   min-height: 100vh;
 }
@@ -94,4 +95,50 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+.turno-display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 1rem;
+  gap: 1rem;
+}
+
+.numero-turno {
+  font-size: 6rem;
+  font-weight: bold;
+  margin: 0;
+  color: #000;
+}
+
+.texto-turno {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+  text-align: center;
+  color: #333;
+}
+#input-turno {
+  padding: 0.6em 1em;
+  font-size: 1em;
+  border-radius: 8px;
+  border: 1px solid #5c5c5c;
+  margin-right: 0.5rem;
+  background-color: #f9f9f9;
+  font-family: inherit;
+  width: 150px;
+  text-align: center;
+  transition: border-color 0.25s;
+  color: #000;
+}
+
+#input-turno:focus {
+  outline: none;
+  border-color: #646cff;
 }
