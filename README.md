@@ -27,7 +27,4 @@ Simular una pantalla de turnos para una clínica, donde un operario pueda:
 - src/
   - main.ts        # Lógica principal
   - style.css      # Estilos
-  - assets/        # Recursos estáticos
-
-- tsconfig.json # Configuración estricta de TypeScript
 - README.md # Este archivo
